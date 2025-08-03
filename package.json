@@ -3,9 +3,12 @@
   "version": "1.0.0",
   "description": "Healthcare Appointment Booking System",
   "main": "index.js",
+  "homepage": "https://sushanthgoud12.github.io/NirogGyan-Frontend-Assignment-",
   "scripts": {
     "start": "webpack serve --mode development --open",
-    "build": "webpack --mode production"
+    "build": "webpack --mode production",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist"
   },
   "keywords": [
     "react",

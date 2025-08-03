@@ -52,14 +52,20 @@ A responsive web application for booking healthcare appointments built with Reac
 
 3. Open [http://localhost:8080](http://localhost:8080) to view it in the browser.
 
+## Live Demo
+
+🌐 **Live Application:** [https://h0spital-management-system.netlify.app/](https://h0spital-management-system.netlify.app/)
+
+The application is deployed on Netlify and ready to use!
+
 ## Project Structure
 
 ```
 src/
-├── components/
-│   ├── BookingForm.js      # Appointment booking form component
+├───|─components/
+│   ├── BookingForm.js      # Appointment booking form 
 │   ├── ConfirmationModal.js # Success/confirmation modal
-│   ├── DoctorCard.js       # Individual doctor card component
+│   ├── DoctorCard.js       # Individual doctor card 
 │   ├── DoctorList.js       # List of doctors component
 │   ├── DoctorProfile.js    # Detailed doctor profile view
 │   ├── Header.js          # Application header component
@@ -97,7 +103,7 @@ src/
 ### 5. **White Screen Issue on Application Launch**
 **Challenge**: Experienced a white screen problem when launching the application, which is a common issue in React applications that can be caused by various factors including routing issues, missing dependencies, or build configuration problems.
 
-**Solution**: Diagnosed and resolved the issue by checking the browser console for errors, verifying all dependencies were properly installed, ensuring the React Router configuration was correct, and confirming the webpack configuration was properly set up for development server with hot reloading.
+**Solution**: Diagnosed and resolved the issue by checking the browser console for errors, verifying all dependencies were properly installed, ensuring the React Router configuration was correct, and confirming the webpack configuration was properly set up for development server.
 
 ### 6. **Webpack Configuration**
 **Challenge**: Setting up a proper build system with Webpack that handles React JSX, CSS processing, and development server configuration.
